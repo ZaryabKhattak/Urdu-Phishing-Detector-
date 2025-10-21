@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:0,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Outfit:0,400;0,500&display=swap');
+
+.MainScreen_1_2 {
+  background: #fff;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.Depth_0Frame_0_1_3 {
+  background: #fff;
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: flex-start;
+  width: 1280px;
+  height: 800px;
+  min-height: 800px;
+  display: flex;
+  overflow: hidden;
+}
+.Depth_1Frame_0_1_4 {
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0;
+  width: 100%;
+  height: 800px;
+  display: flex;
+}
+.Depth_2Frame_0_1_5 {
+  box-sizing: border-box;
+  background: #f0faf9;
+  border-bottom: 1px solid #e5e8eb;
+  flex-shrink: 0;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+  padding: 12px 40px;
+  display: flex;
+}
+.Depth_3Frame_0_1_6 {
+  align-items: center;
+  gap: 16px;
+  display: flex;
+}
+.Depth_4Frame_0_1_7 {
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+}
+.Depth_5Frame_0_1_8 {
+  flex: 1 0 0;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+.Vector_0_1_9,
+.Vector_1_1_10 {
+  fill: #fff;
+  width: 16px;
+  height: 16px;
+}
+.Depth_6Frame_0_1_11 {
+  flex-direction: column;
+  align-items: flex-start;
+  display: inline-flex;
+}
+.Depth_7Frame_0_1_12 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 15px;
+  height: 15px;
+  display: flex;
+}
+.Depth_4Frame_1_1_13 {
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+}
+.UrduPhishingDetector_1_14 {
+  color: #121714;
+  font-feature-settings: "dlig" on;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px;
+  display: inline-block;
+}
+.Frame_17_11_20 {
+  align-items: center;
+  gap: 11px;
+  display: flex;
+}
+.Frame_13_11_21 {
+  box-sizing: border-box;
+  border-bottom: 3px solid #009d8d;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  display: flex;
+}
+.About_11_22 {
+  color: #000;
+  font-feature-settings: "dlig" on;
+  font-family: Outfit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  display: inline-block;
+}
+.Frame_14_11_23 {
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  display: flex;
+}
+.PrivacyPolicy_11_24 {
+  color: #000;
+  font-feature-settings: "dlig" on;
+  font-family: Outfit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  display: inline-block;
+}
+.Frame_15_11_25 {
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  display: flex;
+}
+.TermsOfUse_11_26 {
+  color: #000;
+  font-feature-settings: "dlig" on;
+  font-family: Outfit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  display: inline-block;
+}
+.Frame_16_11_27 {
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  display: flex;
+}
+.Contact_11_28 {
+  color: #000;
+  font-feature-settings: "dlig" on;
+  font-family: Outfit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  display: inline-block;
+}
+.Depth_2Frame_1_1_20 {
+  background: #fff;
+  flex-flow: column;
+  flex-shrink: 0;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 40.5px;
+  width: 1280px;
+  height: 735px;
+  padding-top: 19.5px;
+  display: flex;
+}
+.Frame_9_1_76 {
+  align-items: flex-end;
+  gap: 30px;
+  display: flex;
+}
+.Frame_1_1_43 {
+  box-sizing: border-box;
+  background: #f0faf9;
+  border: 3px solid #009d8d;
+  border-radius: 12px;
+  width: 296px;
+  height: 576px;
+  overflow: hidden;
+}
+.Frame_6_1_71 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 93px;
+  width: 198px;
+  display: flex;
+}
+.Frame_3_1_67 {
+  align-items: center;
+  gap: 24px;
+  display: flex;
+}
+.Group_1_1_51 {
+  width: 68px;
+  height: 68px;
+}
+.PasteMessage_1_48 {
+  color: #000;
+  font-feature-settings: "dlig" on;
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px;
+  display: inline-block;
+}
+.Frame_4_1_68 {
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+  display: flex;
+}
+.Group_2_1_52 {
+  width: 68px;
+  height: 68px;
+}
+.Processing_1_60 {
+  color: #000;
+  font-feature-settings: "dlig" on;
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px;
+  display: inline-block;
+}
+.Frame_5_1_69 {
+  align-items: center;
+  gap: 24px;
+  display: flex;
+}
+.Group_3_1_56 {
+  width: 68px;
+  height: 68px;
+}
+.CheckResult_1_61 {
+  color: #000;
+  font-feature-settings: "dlig" on;
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px;
+  display: inline-block;
+}
+.Line_1_1_62,
+.Line_2_1_65 {
+  stroke-width: 3px;
+  stroke: #009d8d;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  width: 71px;
+  height: 0;
+  transform: rotate(90deg);
+}
+.Frame_8_1_75 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  width: 610px;
+  display: flex;
+}
+.Frame_2_1_66 {
+  box-sizing: border-box;
+  background: #fdfdfd;
+  border: 3px solid #009d8d;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  height: 466px;
+  padding: 33px 30px;
+  display: flex;
+  overflow: hidden;
+}
+.PasteYouMessageHere_1_74 {
+  color: #000;
+  font-feature-settings: "dlig" on;
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px;
+  display: inline-block;
+}
+.Frame_7_1_72 {
+  background: #009d8d;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 74px;
+  padding: 25px 0 26px;
+  display: flex;
+  overflow: hidden;
+}
+.Scan_1_73 {
+  color: #fff;
+  font-feature-settings: "dlig" on;
+  font-family: Outfit;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px;
+  display: inline-block;
+}
+.Frame_12_6_2 {
+  background: #009d8d;
+  flex-shrink: 0;
+  width: 1280px;
+  height: 99px;
+  overflow: hidden;
+}

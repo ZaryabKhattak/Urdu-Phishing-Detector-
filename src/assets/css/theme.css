@@ -1,0 +1,47 @@
+:root{
+  /* Colors */
+  --color-main:#009D8D; /* Teal */
+  --color-white:#FFFFFF;
+  --color-black:#000000;
+  --color-bg:#0B1F3B;      /* Deep blue (existing app bg) */
+  --color-card:#112B4A;    /* Card background */
+  --color-accent:#1DB954;  /* Result-safe accent from current UI */
+
+  /* Typography */
+  --font-sans:'Segoe UI', 'Poppins', system-ui, -apple-system, Arial, sans-serif;
+  --font-size-sm:0.875rem;
+  --font-size-md:1rem;
+  --font-size-lg:1.25rem;
+  --font-size-xl:1.75rem;
+  --font-size-xxl:2.25rem;
+
+  /* Spacing */
+  --space-1:4px;
+  --space-2:8px;
+  --space-3:12px;
+  --space-4:16px;
+  --space-5:20px;
+  --space-6:24px;
+  --space-8:32px;
+  --space-10:40px;
+
+  /* Radius */
+  --radius-sm:6px;
+  --radius-md:10px;
+  --radius-lg:12px;
+
+  /* Shadows */
+  --shadow-1:0 2px 6px rgba(0,0,0,0.15);
+  --shadow-2:0 4px 12px rgba(0,0,0,0.25);
+}
+
+body{ font-family: var(--font-sans); background-color: var(--color-bg); color: var(--color-white); }
+
+.btn-primary-custom{ background-color: var(--color-main); color: var(--color-white); border:none; }
+.btn-primary-custom:hover{ background-color: #007a6d; }
+
+.card-custom{ background-color: var(--color-card); border-radius: var(--radius-md); box-shadow: var(--shadow-2); border:none; }
+
+.text-accent { color: var(--color-main); }
+.bg-main { background-color: var(--color-main); }
+.bg-card { background-color: var(--color-card); }

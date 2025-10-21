@@ -3,7 +3,7 @@ import './App.css'
 
 function App() {
   const [text, setText] = useState('')
-  const [result, setResult] = useState(null)
+  const [result] = useState(null)
 
   return (
     <div className="App">

@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="footer py-4 mt-auto">
       <div className="container text-center">
         <small>
-          © 2025 SID Labs — University of Engineering & Technology, Peshawar<br />
+          © 2025 Sibghat Ullah & Zaryab Khattak — Independent Developers<br />
           Empowering Urdu users with safer digital communication.
         </small>
         <div className="mt-2">
@@ -17,7 +17,7 @@ export default function Footer() {
           <Link className="text-white text-decoration-none mx-2" to="/docs">Documentation</Link>
         </div>
         <div className="mt-2 small">
-          🔒 Secure Connection | 🤖 AI-Powered by SID Labs
+          🔒 Secure Connection | 🤖 AI-Powered Cybersecurity
         </div>
       </div>
     </footer>

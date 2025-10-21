@@ -62,5 +62,5 @@ export const NAV_ITEMS = [
 
 export const FOOTER_TEXT = {
   main: 'Built by independent developers passionate about AI-powered cybersecurity awareness.',
-  copyright: '© 2024 Urdu Phishing Detector. All rights reserved.',
+  copyright: '© 2025 Sibghat Ullah & Zaryab Khattak. All rights reserved.',
 };

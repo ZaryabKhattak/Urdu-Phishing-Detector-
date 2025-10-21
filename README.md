@@ -120,10 +120,18 @@ src/
 - **Terms of Use** - Usage terms
 - **Contact** - Contact information
 
+## � Team
+
+**Founders & Developers:**
+
+- **Sibghat Ullah** - Founder & Cybersecurity Engineer  
+  Envisioned and built the AI model for accurate phishing detection in Roman Urdu.
+
+- **Zaryab Khattak** - Co-Founder & Product Designer  
+  Managing the vision, design, and user experience of the platform.
+
 ## 📄 License
 
-© 2025 SID Labs — University of Engineering & Technology, Peshawar
+© 2025 Sibghat Ullah & Zaryab Khattak — Independent Developers
 
----
-
-**Developed by SID Labs**
+**Built by independent developers passionate about AI-powered cybersecurity awareness.**

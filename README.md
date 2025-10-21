@@ -27,6 +27,8 @@ AI-powered web application for detecting phishing content in Urdu messages and t
 
 ## Getting Started
 
+> **Quick Start:** For a rapid setup, check out the [QUICKSTART.md](QUICKSTART.md) guide!
+
 ### Prerequisites
 - Node.js (v18 or higher)
 - Python (v3.8 or higher)

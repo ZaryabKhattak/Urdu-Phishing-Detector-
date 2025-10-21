@@ -39,8 +39,11 @@ def analyze_text():
         return jsonify(result)
     
     except Exception as e:
-        return jsonify({'error': str(e)}), 500
+        # Log the error for debugging but don't expose details to users
+        app.logger.error(f'Error analyzing text: {str(e)}')
+        return jsonify({'error': 'An error occurred while analyzing the text'}), 500
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
-    app.run(host='0.0.0.0', port=port, debug=True)
+    debug = os.environ.get('FLASK_DEBUG', 'False').lower() == 'true'
+    app.run(host='0.0.0.0', port=port, debug=debug)

@@ -2,17 +2,21 @@ import React from 'react'
 
 export default function ResultCard({ result }) {
   if (!result) return null
-  const { label, confidence } = result
+  
+  // Backend returns 'classification', map to 'label' for compatibility
+  const classification = result.classification || result.label
+  const { confidence } = result
   const conf = typeof confidence === 'number' ? confidence.toFixed(2) : confidence
 
   let cls = 'safe'
-  let text = `✅ SAFE MESSAGE\nConfidence: ${conf}`
-  if (label?.startsWith('PHISHING')) {
+  let text = `✅ SAFE MESSAGE\nConfidence: ${conf}%`
+  
+  if (classification === 'PHISHING' || classification?.startsWith('PHISHING')) {
     cls = 'phishing'
-    text = `🚨 PHISHING DETECTED!\nConfidence: ${conf}`
-  } else if (label?.startsWith('SUSPICIOUS')) {
+    text = `🚨 PHISHING DETECTED!\nConfidence: ${conf}%`
+  } else if (classification === 'SUSPICIOUS' || classification?.startsWith('SUSPICIOUS')) {
     cls = 'suspicious'
-    text = `⚠️ SUSPICIOUS — Needs Review\nConfidence: ${conf}`
+    text = `⚠️ SUSPICIOUS — Needs Review\nConfidence: ${conf}%`
   }
 
   const bgMap = {

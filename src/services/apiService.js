@@ -118,44 +118,6 @@ export const submitContactForm = async (formData) => {
         message: 'Your message has been sent successfully!',
       };
     }
-export const analyzeMessage = async (message) => {
-  try {
-    if (!message || message.trim().length === 0) {
-      throw new Error('Message cannot be empty');
-    }
-
-    // ✅ HuggingFace Space API URL
-    const HF_API_URL = "https://sibghat7-urdu-phishguard.hf.space/predict"; // change if different
-
-    // Real backend call
-    const response = await fetch(HF_API_URL, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({ message })
-    });
-
-    if (!response.ok) {
-      throw new Error("API request failed");
-    }
-
-    const data = await response.json();
-
-    return {
-      classification: data.label === "PHISHING" ? "SCAM" : "SAFE",
-      confidence: Math.round(data.confidence * 100),
-      details:
-        data.label === "PHISHING"
-          ? "⚠️ Suspicious content detected. Please verify the sender."
-          : "✅ This message appears safe.",
-      timestamp: new Date().toISOString()
-    };
-  } catch (error) {
-    console.error("Error analyzing message:", error);
-    throw new Error("Failed to analyze message. Please try again.");
-  }
-};
 
     // Production API call (uncomment when backend is ready)
     /*
